@@ -9,7 +9,7 @@ So once 2 147 483 647 seconds since the epoch has passed, which will be on the 1
 ## Will I be affected?
 **Probably not**, since the most computers and smartphones made recently are 64-bit, which can hold numbers as big as <br> 9 223 372 036 854 775 807 and their time variable wont overflow until the year 292 277 026 596 (the universe is predicted to not exist by then!). So most consumer devices (except for old ones) will most likely be not affected. As for other devices (like ATMs, military equipment or others), by the year 2038 it is likely that most (if not all) 32-bit devices will no longer be in use because of the impending time overflow, but I can't say that for sure.
 
-# Copyright
+## Copyright
 &copy; 2017 Gregory Karastergios
 
 Font: "Barlow" by Jeremy Tribby
