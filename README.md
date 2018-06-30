@@ -1,5 +1,5 @@
 # Year 2038 Problem Countdown
-A timer the counter down to when [The Year 2038 Prolem](https://en.wikipedia.org/wiki/Year_2038_problem) happens.
+A timer the counter down to when [The Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem) happens.
 
 ## What is The Year 2038 Problem?
 The Year 2038 Problem is the result a technical limitation on how computers store the time along with the size of numbers that 32-bit computers can hold, similar to the Year 2000 Problem. Basically, each computer keeps track of time in the UNIX time format. UNIX time is the number of seconds since the 1st of January 1970, also known as the "epoch". 32-bit variables can hold numbers as big as 2 147 483 647.
