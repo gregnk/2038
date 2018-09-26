@@ -11,5 +11,3 @@ So once 2 147 483 647 seconds since the epoch has passed, which will be on the 1
 
 ## Copyright
 &copy; 2017 Gregory Karastergios
-
-Font: "Barlow" by Jeremy Tribby
