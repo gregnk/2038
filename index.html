@@ -13,6 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="/favicon.png">
+        <link rel="stylesheet" href="style.css">
         
         <script>
             function getTime()
@@ -42,74 +43,6 @@
                 var timeout = setTimeout(getTime, 1000);
             }
         </script>
-        
-        <style>
-            header, section, footer, aside, nav, article, figure
-            {
-                display: block;
-            }
-
-            html, body
-            {
-                margin: 0;
-                padding: 0;
-                height: 100%;
-            }
-            
-            body
-            {
-                background-color: #3360aa;
-                font-size: 16px;
-                font-family: 'Barlow', sans-serif;
-            }
-            
-            footer
-            {
-                border-top: black 5px double;
-                text-align: center;
-            }
-            
-            #timeLeft
-            {
-                font-size: 26px;
-                background-color: #3369ec;
-                text-align: center;
-            }
-            
-            #counter
-            {
-                font-size: 32px;
-            }
-            
-            #counter span
-            {
-                font-weight: bold;
-            }
-            
-            #info p
-            {
-                padding-left: 25%;
-                max-width: 50%;
-                word-wrap: break-word;
-            }
-            
-            h1
-            {
-                text-align: center;
-            }
-            
-            a, a:visited
-            {
-                text-decoration: none;
-                color: #339ffd;
-            }
-            
-            a:hover
-            {
-                text-decoration: none;
-                color: #33cffd;
-            }
-        </style>
     </head>
     <body onload="getTime()">
         <br>
