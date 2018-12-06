@@ -12,21 +12,22 @@ html, body
 
 body
 {
-    background-color: #3360aa;
+    background-color: #000000;
+    color: #ffffff;
     font-size: 16px;
     font-family: 'Barlow', sans-serif;
 }
 
 footer
 {
-    border-top: black 5px double;
+    border-top: #0b254f 5px solid;
     text-align: center;
 }
 
 #timeLeft
 {
     font-size: 26px;
-    background-color: #3369ec;
+    background-color: #0b254f;
     text-align: center;
 }
 
