@@ -48,6 +48,15 @@ footer
     word-wrap: break-word;
 }
 
+@media screen and (orientation: portrait)
+{
+    #info p
+    {
+        padding-left: 10%;
+        max-width: 80%;
+    }
+}
+
 h1
 {
     text-align: center;
