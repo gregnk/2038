@@ -31,6 +31,11 @@ footer
     text-align: center;
 }
 
+#y2038Time
+{
+    font-size: 12px;
+}
+
 #counter
 {
     font-size: 42px;
