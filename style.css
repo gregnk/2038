@@ -55,6 +55,13 @@ footer
         padding-left: 10%;
         max-width: 80%;
     }
+    
+    #counter span:not(:first-child)::before
+    {
+        content: "\A";
+        white-space: pre;
+    }
+
 }
 
 h1
