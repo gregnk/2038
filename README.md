@@ -2,7 +2,7 @@
 A timer the counter down to when [The Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem) happens.
 
 ## What is The Year 2038 Problem?
-The Year 2038 Problem is a bug that will cause the clock on many computers and other electronics to stop working, being the result a technical limitation on how computers store the time along with the size of numbers that 32-bit computers can hold, similar to the Year 2000 Problem. Basically, each computer keeps track of time in the UNIX time format. UNIX time is the number of seconds since the 1st of January 1970, which is as the "epoch". 32-bit variables can hold numbers as big as 2 147 483 647.
+The Year 2038 Problem will cause the clock on many computers and other electronics to stop working, being the result a technical limitation on how computers store the time along with the size of numbers that 32-bit computers can hold, similar to the Year 2000 Problem. Basically, each computer keeps track of time in the UNIX time format. UNIX time is the number of seconds since the 1st of January 1970, which is as the "epoch". 32-bit variables can hold numbers as big as 2 147 483 647.
 
 So once 2 147 483 647 seconds since the epoch has passed, which will be on the 19th of January 2038 at 03:14:07 UTC, the time variable will overflow and revert to -2 147 483 647, causing the computer to think the the date is the 13th of December 1901.
 
