@@ -44,6 +44,16 @@
                 var timeout = setTimeout(getTime, 1000);
             }
         </script>
+        
+        <script>
+            // Page stat counter
+            var data = new FormData();
+            data.append("RefUrl", document.referrer);
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "http://gregnk.com/tests/SimplePageStats/StatCounter.php", true);
+            xhttp.send(data);
+        </script>
     </head>
     <body onload="getTime()">
         <br>
