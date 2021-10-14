@@ -5,31 +5,31 @@ header, section, footer, aside, nav, article, figure
     display: block;
 }
 
-html, body
-{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 body
 {
-    background-color: #000000;
+    background-color: rgb(28, 28, 28);
+    margin: 0;
+    padding: 2% 10% 0% 10%;
+    font-family: Arial;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+    
     color: #ffffff;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 footer
 {
-    border-top: #0b254f 5px solid;
+    border-top: 5px rgb(0, 70, 127) solid;
     text-align: center;
 }
 
 #timeLeft
 {
     font-size: 26px;
-    background-color: #0b254f;
+    border-top: 5px rgb(0, 70, 127) solid;
+    border-bottom: 5px rgb(0, 70, 127) solid;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -50,8 +50,8 @@ footer
 
 #info p
 {
-    padding-left: 25%;
-    max-width: 50%;
+    padding-left: 15%;
+    max-width: 70%;
     word-wrap: break-word;
 }
 
