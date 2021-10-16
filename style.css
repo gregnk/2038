@@ -29,6 +29,7 @@ footer
     font-size: 26px;
     border-top: 5px rgb(0, 70, 127) solid;
     border-bottom: 5px rgb(0, 70, 127) solid;
+	background-color: rgb(0, 70, 127);
     font-size: 30px;
     text-align: center;
 }
