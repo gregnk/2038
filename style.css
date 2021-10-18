@@ -63,8 +63,8 @@ footer
 {
     #info p
     {
-        padding-left: 10%;
-        max-width: 80%;
+        padding-left: 5%;
+        max-width: 95%;
     }
     
     #counter span:not(:first-child)::before
