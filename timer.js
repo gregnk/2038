@@ -10,9 +10,9 @@ function getTime() {
 	var hours = minutes / 60 << 0;
 	var days = hours / 24 << 0;
 	
-	seconds %= minutes;
-	minutes %= hours;
-	hours %= days;
+	seconds %= 60;
+	minutes %= 60;
+	hours %= 24;
 	
 	document.getElementById("days").innerHTML = days;
 	document.getElementById("hours").innerHTML = hours;
