@@ -11,6 +11,6 @@ So once 2 147 483 647 seconds since the epoch has passed, which will be on the 1
 
 [In February 2020, the Linux OS was updated to mitigate the Year 2038 Problem on 32-bit versions.](https://www.zdnet.com/article/linux-is-ready-for-the-end-of-time/)
 ## Copyright
-&copy; 2021 Gregory Karastergios
+&copy; 2022 Gregory Karastergios
 
 See LICENSE.md for terms
